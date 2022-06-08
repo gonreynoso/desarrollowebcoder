@@ -20,49 +20,52 @@
 <body>
     <!--INCIO header-->
     <header class="header">
-        <h1>
+        <h1 class="h1h1 ">
             <a href="./index.html">Takumi</a>
         </h1>
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Proyecto/Historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./Proyecto/Plantas de interior.html">Plantas de
+                                        interior</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./Proyecto/Plantas de exterior.html">Plantas de
+                                        exterior</a>
+                                </li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./Proyecto/Macetas.html">Macetas</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./Proyecto/Tips.html">Tips</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Escriba aquí" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+        </nav>
     </header>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Proyecto/Historia.html">Historia</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./Proyecto/Productos.html">Plantas de interior</a>
-                            </li>
-                            <li><a class="dropdown-item" href="./Proyecto/Productos.html">Plantas de exterior</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="./Proyecto/Productos.html">Macetas</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./Proyecto/Tips.html">Tips</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Escriba aquí" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
-    </nav>
 
     <!--FIN HEADER-->
     <!--INCIO MAIN-->
@@ -94,68 +97,13 @@
             </button>
         </div>
     </section>
-    <main class="main">
-        <!--INICIO MAIN
-            <div class="h1h1">
-                <h1>Plantas de interior que crecen rápido</h1>
-            </div>
-            <div class="cajaParrafo0">
-                <h2>Cinta</h2>
-                <p class="parrafoPrincipal">
-                    También conocida como planta araña, la cinta es una de las plantas que crecen rápido y se distingue
-                    por su follaje largo y fino. Ideal para macetas colgantes, ésta se produce a través de pequeños
-                    brotes que pueden plantarse en la misma maceta de planta madre.
-                </p>
-                <img class="fotoPrincipalImagen" src="./Fotos/fotos index/CINTA.webp" alt="Planta2">
-            </div>
-            <hr>
-            <div class="cajaParrafo1">
-                <h2>Helecho</h2>
-                <p class="parrafoPrincipal">
-                    Otra de las plantas que crecen rápido son los helechos, los cuales se caracterizan por sus largas
-                    frondas adornadas con pequeñas hojas verdes. Éstas suelen crecer durante la primavera y el verano,
-                    siempre y cuando tengan una buena cantidad de luz y humedad.
-                </p>
-                <img class="fotoPrincipalImagen" src="./Fotos/fotos index/HELECHO.webp" alt="Planta2">
-            </div>
-            <hr>
-            <div class="cajaParrafo2">
-                <h2>Palma areca</h2>
-                <p class="parrafoPrincipal">
-                    Este tipo de palma puede llegar a crecer hasta tres metros en interiores, y crece muy rápido durante
-                    la primavera y el verano. Lo único que necesita es luz filtrada, por lo que lo ideal es colocarla
-                    cerca de una ventana, cuidando que el sol no le pegue directamente.
-                </p>
-                <img class="fotoPrincipalImagen" src="./Fotos/fotos index/PALMA.webp" alt="Planta2">
-            </div>
-            <hr>
-            <div class="cajaParrafo3">
-                <h2>Hiedra inglesa</h2>
-                <p class="parrafoPrincipal">
-                    Esta planta trepadora es común en exteriores; sin embargo, da acento decorativo en interiores
-                    también. De rápido crecimiento, esta necesita de luz media e indirecta, un suelo húmedo y una poda
-                    ocasional.
-                </p>
-                <img class="fotoPrincipalImagen" src="./Fotos/fotos index/hiedra.webp" alt="Planta2">
-            </div>
-            <hr>
-            <div class="cajaParrafo4">
-                <h2>Peperomia</h2>
-                <p class="parrafoPrincipal">
-                    También conocida como planta china del dinero, esta es una de las que crecen más rápido en
-                    interiores. Es increíblemente fácil de reproducir por esquejes, mientras que sus cuidados son
-                    iluminación indirecta y riego ocasional.
-                </p>
-                <img class="fotoPrincipalImagen" src="./Fotos/fotos index/peperomia.webp" alt="Planta2">
-            </div>
-            <hr>-->
-    </main>
+
     <!--FIN MAIN-->
-    <!--INCIO ASIDE
+    <!--INCIO ASIDE-->
         <aside class="aside">
             <div class="divAside">
                 <h2>Video de la semana</h2>
-                <iframe  src="https://www.youtube.com/embed/ASMmtvWF3hY"
+                <iframe  src="https://www.youtube.com/embed/ASMmtvWF3hY" width="500px" height="300px"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
@@ -171,18 +119,9 @@
                     En nuestro segmento de decoración, preparamos un informe sobre la decoración con plantas de
                     interiores.
                 </p>
-                <br>
-                <p>
-                    En nuestro segmento de decoración, preparamos un informe sobre la decoración con plantas de
-                    interiores.
-                </p>
-                <br>
-                <p>
-                    En nuestro segmento de decoración, preparamos un informe sobre la decoración con plantas de
-                    interiores.
-                    <img class="fotoPrincipalAside" src="./Fotos/fotos index/lirio.webp" alt="Planta2">
+                    <img class="fotoPrincipalAside" src="./Fotos/fotos index/lirio.webp" alt="Planta2" height="400px">
             </div>
-        </aside>-->
+        </aside>
     <!--FIN ASIDE-->
     <!--INCIO FOOTER-->
     <footer class="footer">
@@ -197,7 +136,8 @@
                     rigor, la calidad y la creatividad con especial interés por los nuevos talentos, la
                     sostenibilidad y
                     diversidad.</p>
-                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F%3F__coig_login%3D1" class="btn btn-primary">Instagram</a>
+                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F%3F__coig_login%3D1"
+                    class="btn btn-success">Instagram</a>
             </div>
             <div class="card-footer text-muted">
                 Developed by Gonzalo Reynoso Coderhouse©

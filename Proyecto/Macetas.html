@@ -12,8 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-        <!-- CSS only de Bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    <!-- CSS only de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
@@ -24,88 +24,83 @@
             <a href="../index.html">Takumi</a>
         </h1>
     </header>
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html">Inicio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Historia.html">Historia</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="./Productos.html" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./Productos.html">Plantas de interior</a>
-                                </li>
-                                <li><a class="dropdown-item" href="./Productos.html">Plantas de exterior</a>
-                                </li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="./Productos.html">Macetas</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./Tips.html">Tips</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Escriba aquí" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="../Proyecto/Plantas de interior.html">Plantas de interior</a>
+                            </li>
+                            <li><a class="dropdown-item" href="../Proyecto/Plantas de exterior.html">Plantas de exterior</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="../Proyecto/Macetas.html">Macetas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Tips.html">Tips</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Escriba aquí" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
-        </nav>
+        </div>
+    </nav>
 
     <main>
         <!--INICIO MAIN-->
         <section>
-            <h2>Macetas</h2>
+            <h2 class="m-3">Macetas</h2>
             <div class="macetas">
                 <p class="parrafoMacetas">
                     En Takumi tenemos las mejores macetas del mercado, de todos los colores y materiales.
                 </p>
             </div>
-            <div class="macetas">
-                <h3 class="modelo">Copa Malbec </h3>
-                <h4>Fibrocemento impermiabilizada</h4>
-                <img src="../Fotos/fotos macetas/Copa malbec fibrocemento/Copa Malbec 50×37 Fibrocemento-Impermeabilizada 1.jpg" alt="fibrocemento impermeabilizada" width="200px">
-                <p class="descripcionProductos">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, saepe. Ratione aperiam autem
-                    consectetur dicta odit exercitationem molestias nobis? Earum distinctio atque deleniti, iste magni
-                    aliquam magnam totam quaerat.
-                </p>
+            <div class="card p-4 m-4" style="width: 18rem;">
+                <img class="card-img-top" src="../Fotos/fotos-macetas/Copa malbec negra/Copa-Malbec-50×37-Negra(Pintada+Impermeabilizada).jpeg" alt="Copa Malbec Negra">
+                <div class="card-body">
+                    <h5 class="card-title">Copa Malbec Negra</h5>
+                    <p class="card-text">La copa Malbec color negra es nuestra maceta estrella en ventas ya que da al ambiente mucha clase.</p>
+                    <a href="#" class="btn btn-success">Agregar al carrito</a>
+                </div>
             </div>
-            <div class="macetas">
-                <h3 class="modelo">Copa Malbec</h3>
-                <h4>Negra pintada e impermiabilizada</h4>
-                <img src="../Fotos/fotos macetas/Copa malbec negra/Copa Malbec 50×37 Negra (Pintada+Impermeabilizada) 1.jpeg"
-                    alt="maceta cuadrada Negra" width="200px">
-                <p class="descripcionProductos">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nobis in praesentium, nulla sequi
-                    odit voluptas tempore dolores esse ad natus aspernatur a corporis facilis adipisci, cumque mollitia
-                    magnam fuga?
-                </p>
+            <hr>
+            <div class="card p-4 m-4" style="width: 18rem;">
+                <img class="card-img-top" src="../Fotos/fotos-macetas/Copa malbec fibra de vidrio/maceta-fibra-de-vidrio.jpg" alt="Copa Malbec de Vidrio">
+                <div class="card-body">
+                    <h5 class="card-title">Copa Malbec Fibra de Vidrio</h5>
+                    <p class="card-text">La copa Malbec Fibra de Vidrio muestra la excelencia en detalles a la hora de tener plantas en nuestros ecosistemas.</p>
+                    <a href="#" class="btn btn-success">Agregar al carrito</a>
+                </div>
             </div>
-            <div class="macetas">
-                <h3 class="modelo">Copa Malbec </h3>
-                <h4>Fibra de vidrio</h4>
-                <img src="../Fotos/fotos macetas/Copa malbec fibra de vidrio/maceta fibra de vidrio.jpg"
-                    alt="maceta fibra de vidrio" width="200px">
-                <p class="descripcionProductos">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nobis in praesentium, nulla sequi
-                    odit voluptas tempore dolores esse ad natus aspernatur a corporis facilis adipisci, cumque mollitia
-                    magnam fuga?
-                </p>
+            <hr>
+            <div class="card p-4 m-4" style="width: 18rem;">
+                <img class="card-img-top" src="../Fotos/fotos-macetas/Copa malbec fibrocemento/Copa-Malbec-50×37-Fibrocemento-Impermeabilizada.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Copa Malbec Fibrocemento</h5>
+                    <p class="card-text">La copa Malbec Fibrocemento genera gran combinación con ambientes blancos y cálidos.</p>
+                    <a href="#" class="btn btn-success">Agregar al carrito</a>
+                </div>
             </div>
+            <hr>
         </section>
 
     </main>
@@ -125,7 +120,8 @@
                     rigor, la calidad y la creatividad con especial interés por los nuevos talentos, la
                     sostenibilidad y
                     diversidad.</p>
-                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F%3F__coig_login%3D1" class="btn btn-primary">Instagram</a>
+                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F%3F__coig_login%3D1"
+                    class="btn btn-success">Instagram</a>
             </div>
             <div class="card-footer text-muted">
                 Developed by Gonzalo Reynoso Coderhouse©
