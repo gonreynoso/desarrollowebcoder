@@ -1,0 +1,24 @@
+.menuBarraNav {
+	padding: 1rem;
+	list-style-type: none;
+	margin: 0.7rem;
+	font-size: 0;
+	display: flex;
+	li {
+		display: inline-block;
+		text-align: center;
+		padding: 0.7rem;
+		margin: 0.7rem;
+		a {
+			color: #070706;
+			text-decoration: none;
+			font-size: 25px;
+			&:hover {
+				font-size: 27px;
+				color: #f3f1ee;
+				font-weight: bold;
+				transform: scale(20px, 50px);
+			}
+		}
+	}
+}

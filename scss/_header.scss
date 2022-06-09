@@ -1,0 +1,14 @@
+header {
+	color: green;
+	text-decoration: none;
+	width: 100%;
+	height: 50%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: space-around;
+	grid-area: header;
+}

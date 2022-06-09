@@ -1,0 +1,19 @@
+@media only screen and (min-width: 765px) {
+	.contenedorPadre {
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 3fr 1fr;
+		grid-template-areas: "header header" "menuBarraNav menuBarraNav" "section section" "h1 h1" "main aside" "footer footer";
+		gap: 20px;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
+		grid-template-areas: "menuBarraNav" "section" "h1" "main" "footer";
+	}
+}
+@media only screen and (min-width: 425px) {
+	.contenedorPadre {
+		gap: 20px;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr;
+		grid-template-areas: "menuBarraNav" "section" "h1 h1" "main main" "footer footer";
+	}
+}

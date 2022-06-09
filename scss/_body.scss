@@ -1,0 +1,19 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: rgba(226, 173, 74, 0.661);
+}
+.contenedorPadre {
+	display: grid;
+	margin: 25px auto;
+	width: 90% auto;
+	height: 82vh;
+	gap: 10px;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-template-areas: "header header" "section section" "h1 h1" "main main" "aside aside" "footer footer";
+}
