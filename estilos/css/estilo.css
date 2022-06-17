@@ -4,5 +4,18 @@
   margin: 0;
   box-sizing: border-box; }
 
-/* vendors */
-/*@import "../../node_modules/bootstrap/scss/bootstrap.scss"*/
+/* components */
+/* layouts*/
+body {
+  background-color: rgba(226, 173, 74, 0.661); }
+
+/* pages */
+/*index*/
+.cajaParrafoIndex {
+  text-align: center; }
+
+.parrafoIndex {
+  font-size: 30px; }
+
+/* vendors 
+@import "../scss/vendors/bootstrap";*/

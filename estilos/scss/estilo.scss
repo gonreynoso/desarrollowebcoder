@@ -1,7 +1,15 @@
 /* base */
 @import "./base/reset";
 
-/* vendors */
-@import "./vendors/bootstrap";
+/* components */
+
+/* layouts*/
+@import "./layouts/body";
+
+/* pages */
+@import "../scss/pages/index";
+
+/* vendors 
+@import "../scss/vendors/bootstrap";*/
 
 
