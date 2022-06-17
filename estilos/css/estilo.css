@@ -4,6 +4,7 @@
   margin: 0;
   box-sizing: border-box; }
 
+/* abstracts*/
 /* components */
 /* layouts*/
 body {
@@ -12,10 +13,13 @@ body {
 /* pages */
 /*index*/
 .cajaParrafoIndex {
-  text-align: center; }
-
-.parrafoIndex {
-  font-size: 30px; }
+  text-align: center;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  border: green 5px solid; }
+  .cajaParrafoIndex .parrafoIndex {
+    font-size: 30px; }
 
 /* vendors 
 @import "../scss/vendors/bootstrap";*/

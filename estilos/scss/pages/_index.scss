@@ -2,9 +2,15 @@
 
 .cajaParrafoIndex{
     text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    @include borde(green,5px);
+    .parrafoIndex{
+        font-size: 30px;
+
+    }
 
 }
 
-.parrafoIndex{
-    font-size: 30px;
-}
+
