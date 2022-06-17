@@ -9,21 +9,30 @@ Dependencias:
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
 
-Estoy probando el uso correcto de SASS 7-1 para brindarle a usted colega el mejor orden posible de la página.
+Estoy probando el uso correcto del patrón SASS 7-1 para brindarle a usted colega el mejor orden posible de la página.
 
 Wireframe: Está explicada la version desktop y mobile.
 
 Html index:
 Navbar creado por bootstrap. 
 Carrusel de imágenes.
-Texto de bienvenida
-Video de la semana
-Lo mas visto
+Texto de bienvenida.
+Video de la semana.
+Lo mas visto.
 Footer.
 
 Html Historia:
 Navbar creado por bootstrap. 
-Nuestra historia
+Nuestra historia.
+
+Html Productos.
+Aquí dentro estarán todos los productos dividios en 3 html que son:
+Plantas de interior.
+Plantas de exterior.
+Macetas.
+
+Html Tips:
+Aquí estarán algunos tips para el cuidado de las plantas.
 
 
 
