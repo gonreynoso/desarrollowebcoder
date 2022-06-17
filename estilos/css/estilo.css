@@ -10,6 +10,22 @@
 body {
   background-color: rgba(226, 173, 74, 0.661); }
 
+.aside {
+  grid-area: aside;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap; }
+  .aside .parrafoAside {
+    font-size: 25px;
+    line-height: 35px; }
+
+.fotoPrincipalAside {
+  width: 400px;
+  height: 500px; }
+
+.cajasAside {
+  display: flex; }
+
 /* pages */
 /*index*/
 .cajaParrafoIndex {
