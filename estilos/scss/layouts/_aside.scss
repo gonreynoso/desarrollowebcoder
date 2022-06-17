@@ -2,7 +2,6 @@
 	grid-area: aside;
 	text-align: center;
 	display: flex;
-	flex-wrap: nowrap;
 	.parrafoAside {
 		font-size: 25px;
 		line-height: 35px;
@@ -11,8 +10,4 @@
 .fotoPrincipalAside {
 	width: 400px;
 	height: 500px;
-}
-
-.cajasAside{
-	display: flex;
 }

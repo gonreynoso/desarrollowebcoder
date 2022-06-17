@@ -3,6 +3,7 @@
 
 /* abstracts*/
 @import "./abstracts/mixins";
+@import "./abstracts/variables";
 
 /* components */
 
@@ -13,7 +14,7 @@
 /* pages */
 @import "../scss/pages/index";
 
-/* vendors 
-@import "../scss/vendors/bootstrap";*/
+/* vendors */
+@import "../scss/vendors/bootstrap";
 
 
