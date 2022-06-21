@@ -27,56 +27,65 @@
 <body>
     <!--INCIO header-->
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-success fixed-top">
+        <div class="divBarraDescuentos">
+            <p class="barraDescuentos">
+                15% DE DESCUENTO EN PLANTAS PAGANDO EN EFECTIVO. 3 Y 6 CUOTAS SIN INTERES CON TARJETA. ENVIO GRATIS EN
+                COMPRAS SUPERIORES A $7900, DENTRO DE CABA.
+            </p>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-light container-fluid"">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Takumi</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./Proyecto/Quienes-somos.html">Quiénes somos</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./Proyecto/Plantas-de-interior.html">Plantas de
-                                        interior</a>
-                                </li>
-                                <li><a class="dropdown-item" href="./Proyecto/Plantas-de-exterior.html">Plantas de
-                                        exterior</a>
-                                </li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="./Proyecto/Macetas.html">Macetas</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./Proyecto/Tips.html">Tips</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Escriba aquí" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Buscar</button>
-                    </form>
-                </div>
+            <a class="navbar-brand" href="./index.html">
+                <img src="./logo/planta-01.png" alt="logo" width="170px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Proyecto/Quienes-somos.html">Quiénes somos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./Proyecto/Plantas-de-interior.html">Plantas de
+                                    interior</a>
+                            </li>
+                            <li><a class="dropdown-item" href="./Proyecto/Plantas-de-exterior.html">Plantas de
+                                    exterior</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="./Proyecto/Macetas.html">Macetas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./Proyecto/Tips.html">Tips</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 expand-lg" type="search" placeholder="Escriba aquí"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
         </nav>
     </header>
     <!--INCIO MAIN-->
     <main class="main">
-        <section class="sectionCarusel">
+        <div class="containerCarusel">
             <div id="carouselExampleControls" class="carousel slide mx-auto" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./imagenes/foto-horizontal/unooo.jpg" class="d-block w-100"
-                            alt="flores">
+                        <img src="./imagenes/foto-horizontal/unooo.jpg" class="d-block w-100" alt="flores">
                     </div>
                     <div class="carousel-item">
                         <img src="./imagenes/foto-horizontal/dooss.jpg" class="d-block w-100" alt="flores">
@@ -85,8 +94,7 @@
                         <img src="./imagenes/foto-horizontal/tres.jpg" class="d-block w-100" alt="flores">
                     </div>
                     <div class="carousel-item">
-                        <img src="./imagenes/foto-horizontal/cuatro.jpg"
-                            class="d-block w-100" alt="flores">
+                        <img src="./imagenes/foto-horizontal/cuatro.jpg" class="d-block w-100" alt="flores">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -100,16 +108,100 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </section>
-        <section>
-            <div class="cajaParrafoIndex">
-                <p class="parrafoIndex" >
-                    En Takumi Vivero creemos que mejorar un ambiente es algo muy importante por eso somos una empresa con 10 años de experiencia en el rubro y queremos que vos formes parte de ello.
-                </p>
+        </div>
+        <div class="cajaParrafoIndex">
+            <p class="parrafoIndex">
+                <span>
+                    En Takumi Vivero creemos que mejorar un ambiente es algo muy importante por eso somos una empresa
+                    con 10
+                    años de experiencia en el rubro y queremos que vos formes parte de ello.
+                </span>
+            </p>
+        </div>
+        <div class="containerPadre">
+            <div class="containerCards">
+                <h2 class="titleCard">Mirá nuestros productos destacados!</h2>
+                <div class="card">
+                    <img src="/imagenes/fotos-macetas/Copa malbec fibra de vidrio/maceta-fibra-de-vidrio.jpg">
+                    <h4>Naturaleza</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="card">
+                    <img src="/imagenes/fotos-macetas/Copa malbec fibra de vidrio/maceta-fibra-de-vidrio.jpg">
+                    <h4>Naturaleza</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                    <a href="#">Leer más</a>
+                </div>
+                <div class="card">
+                    <img src="/imagenes/fotos-macetas/Copa malbec fibra de vidrio/maceta-fibra-de-vidrio.jpg">
+                    <h4>Naturaleza</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                    <a href="#">Leer más</a>
+                </div>
             </div>
-        </section>
+            <div class="containerAside">
+                <h2 class="titleCard">Donde estamos!</h2>
+                <div class="card">
+                    <img src="/imagenes/fotos-macetas/Copa malbec fibra de vidrio/maceta-fibra-de-vidrio.jpg">
+                    <h4>ASIDE</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
+                    <a href="#">Leer más</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="barraHorizontal">
+            <h2 class="titleHorizontal">Nuestro compromiso</h2>
+            <div class="NuestroCompromiso">
+                <div>
+                    <h4>
+                        Orientación al cliente
+                    </h4>
+                    <p>
+                        <span>
+                            Trabajamos con la máxima eficacia para que nuestros clientes puedan centrarse en aquellas
+                            actividades que les aportan valor a su negocio.
+                        </span>
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Integridad
+                    </h4>
+                    <p>
+                        <span>
+                            Permanecemos fieles a nuestros principios empresariales y humanos, comprometidos con nuestra
+                            comunidad y con prácticas medioambientales sostenibles.
+                        </span>
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Cercanía
+                    </h4>
+                    <p>
+                        <span>
+                            Tratamos a las personas con amabilidad y de forma personal, estando a disponibilidad.
+                            Generando vínculos estables y cercanos.
+                        </span>
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        Profesionalismo
+                    </h4>
+                    <p>
+                        <span>
+                            Nuestro equipo se esmera en cumplir con el trabajo, bajo cualquier circunstancia, con altos
+                            estándares de calidad y compromiso.
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
     </main>
-    <!--INCIO ASIDE-->
+    <!--INCIO ASIDE
     <aside class="aside">
         <div class="divAside">
             <h2>Video de la semana</h2>
@@ -138,9 +230,8 @@
 
         </div>
     </aside>
-    <!--INCIO FOOTER-->
+    <!--INCIO FOOTER
     <footer class="footer">
-        <!--INICIO FOOTER-->
         <div class="card text-center">
             <div class="card-body">
                 <h5 class="card-title">Takumi Vivero</h5>
