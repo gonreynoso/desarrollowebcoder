@@ -6,10 +6,11 @@
 @import "./abstracts/variables";
 
 /* components */
+@import "./components/h2";
+
 
 /* layouts*/
 @import "./layouts/body";
-@import "./layouts/aside";
 @import "./layouts/header";
 @import "./layouts/nav";
 
@@ -18,9 +19,7 @@
 @import "../scss/pages/quienesSomos";
 @import "../scss/pages/contacto";
 @import "../scss/pages/tips";
-@import "../scss/pages/productos/plantasDeInterior";
-@import "../scss/pages/productos/plantasDeExterior";
-@import "../scss/pages/productos/macetas";
+@import "../scss/pages/productos";
 
 /* vendors */
 @import "../scss/vendors/bootstrap";

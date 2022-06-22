@@ -6,47 +6,34 @@
 
 /* abstracts*/
 /* components */
+h2, .h2 {
+  color: #010101;
+  font-size: 15PX;
+  padding: 20px;
+  text-decoration: underline;
+  font-weight: bold; }
+
 /* layouts*/
 body {
-  background-color: rgba(226, 173, 74, 0.661); }
+  background-color: rgba(238, 182, 77, 0.661); }
 
-.aside {
-  grid-area: aside;
-  text-align: center;
-  display: flex; }
-  .aside .parrafoAside {
-    font-size: 25px;
-    line-height: 35px; }
+.header {
+  position: sticky;
+  top: 0px;
+  z-index: 1; }
 
-.fotoPrincipalAside {
-  width: 400px;
-  height: 500px; }
-
-header {
-  color: green;
-  text-decoration: none;
-  width: 100%;
-  height: 50%;
-  padding: 0px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: space-around;
-  grid-area: header; }
-
-.divBarraDescuentos {
+.headerPadre {
   background-color: #17b82f;
   width: 100%; }
-  .divBarraDescuentos .barraDescuentos {
+  .headerPadre .barraDescuentos {
     background-color: #17b82f;
     color: white;
     padding: 0px;
     margin: 0px;
     text-align: center; }
 
-/*@import "../vendors/bootstrap";*/
+/*@import "../vendors/bootstrap"; */
+/*La navbar tiene bootstrap*/
 nav a img:hover {
   transform: scale(1.2, 1.2);
   transition: all 0.5s; }
@@ -74,26 +61,31 @@ nav a img:hover {
   font-weight: 100;
   font-family: 'Roboto', sans-serif; }
 
-.containerPadre {
+.containerPadreCards {
   width: 100%;
   margin: auto;
   max-width: 1200px;
   padding: 40px 0;
   display: flex;
-  gap: 20px; }
-  .containerPadre .containerCards {
+  gap: 20px;
+  text-align: center; }
+  .containerPadreCards .containerCards {
     letter-spacing: 0.02rem;
     line-height: 1.2;
-    width: 70%;
+    text-align: center;
+    width: 50%;
     margin: auto; }
-    .containerPadre .containerCards .card {
+    .containerPadreCards .containerCards .card {
       border-radius: 8px;
       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
       overflow: hidden;
       margin: 20px;
+      width: 400px;
+      height: 420px;
       text-align: center;
-      transition: all 0.25s; }
-    .containerPadre .containerCards .containerAside {
+      transition: all 0.25s;
+      margin-left: 90px; }
+    .containerPadreCards .containerCards .containerAside {
       width: 30%; }
 
 .card:hover {
@@ -122,10 +114,10 @@ nav a img:hover {
   background-color: green;
   text-align: center;
   color: aliceblue;
-  display: flex;
   letter-spacing: 0.02rem;
   line-height: 1.2;
-  width: 70%;
+  width: 100%;
+  height: 90%;
   margin: auto; }
   .barraHorizontal .nuestroCompromiso {
     border-radius: 8px;
@@ -133,7 +125,11 @@ nav a img:hover {
     overflow: hidden;
     margin: 20px;
     text-align: center;
-    transition: all 0.25s; }
+    transition: all 0.25s;
+    display: flex; }
+
+.titleHorizontal {
+  text-align: center; }
 
 /* vendors */
 /*!

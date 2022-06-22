@@ -12,8 +12,7 @@
         content="plantas,maceta,hojas,verde,naturaleza,ambiente,decoración,interior,exterior,decorar,lugares,2022,temporada,año,linda">
     <title>Vivero Takumi | Decoramos tus ambientes</title>
     <link rel="shortcut icon" href="/coderhouse/Vivero Takumi Reynoso/favicon/favicon-16x16.png" type="image/x-icon">
-    <!-- CSS principal -->
-    <link rel="stylesheet" href="./estilos/css/estilo.css">
+
     <!-- Fuentes de google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,63 +20,52 @@
     <!-- CSS only de Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="./estilos/css/estilo.css">
 </head>
 <!--INCIO BODY-->
 
 <body>
     <!--INCIO header-->
     <header class="header">
-        <div class="divBarraDescuentos">
+        <div class="headerPadre">
             <p class="barraDescuentos">
                 15% DE DESCUENTO EN PLANTAS PAGANDO EN EFECTIVO. 3 Y 6 CUOTAS SIN INTERES CON TARJETA. ENVIO GRATIS EN
                 COMPRAS SUPERIORES A $7900, DENTRO DE CABA.
             </p>
+            <nav class="navbar navbar-expand-lg bg-light container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./logo/planta-01.png" alt="logo" width="170px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Proyecto/Quienes-somos.html">Quiénes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./Proyecto/Productos.html">Productos</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./Proyecto/Tips.html">Tips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./Proyecto/Contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 expand-lg" type="search" placeholder="Escriba aquí"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+            </nav>
         </div>
-        <nav class="navbar navbar-expand-lg bg-light container-fluid"">
-            <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./logo/planta-01.png" alt="logo" width="170px">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Proyecto/Quienes-somos.html">Quiénes somos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="./Proyecto/Plantas-de-interior.html">Plantas de
-                                    interior</a>
-                            </li>
-                            <li><a class="dropdown-item" href="./Proyecto/Plantas-de-exterior.html">Plantas de
-                                    exterior</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="./Proyecto/Macetas.html">Macetas</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./Proyecto/Tips.html">Tips</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2 expand-lg" type="search" placeholder="Escriba aquí"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
-                </form>
-            </div>
-        </nav>
     </header>
     <!--INCIO MAIN-->
     <main class="main">
@@ -118,42 +106,57 @@
                 </span>
             </p>
         </div>
-        <div class="containerPadre">
+        <div class="containerPadreCards">
             <div class="containerCards">
-                <h2 class="titleCard">Mirá nuestros productos destacados!</h2>
+                <h4 class="titleCard">Mirá nuestros productos destacados!</h4>
                 <div class="card">
-                    <img src="/imagenes/fotos-macetas/Copa malbec fibra de vidrio/maceta-fibra-de-vidrio.jpg">
-                    <h4>Naturaleza</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                    <a href="#">Leer más</a>
+                    <h5>Macetas</h5>
+                    <img src="./imagenes/fotos-macetas/Copa malbec negra/Copa-Malbec-50×37-Negra(Pintada+Impermeabilizada).jpeg">
+                    <h4>Maceta Malbec</h4>
+                    <p>Maceta Malbec color negro mate impermiabilizada...</p>
+                    <a href="./Proyecto/productos.html">Leer más</a>
                 </div>
                 <div class="card">
-                    <img src="/imagenes/fotos-macetas/Copa malbec fibra de vidrio/maceta-fibra-de-vidrio.jpg">
-                    <h4>Naturaleza</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                    <a href="#">Leer más</a>
+                    <h5>Plantas de interior</h5>
+                    <img src="./imagenes/fotos index/pino-limon.jpg"  alt="pino-de-limón" >
+                    <h4>Pino de limón</h4>
+                    <p>Los pinos limón son muy famosos por su peculiar aroma a limón, estos no suelen superar los 2 metros de altura...</p>
+                    <a href="./Proyecto/productos.html"">Leer más</a>
                 </div>
                 <div class="card">
-                    <img src="/imagenes/fotos-macetas/Copa malbec fibra de vidrio/maceta-fibra-de-vidrio.jpg">
-                    <h4>Naturaleza</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                    <a href="#">Leer más</a>
+                    <h5>Plantas de exterior</h5>
+                    <img src="./imagenes/fotos-plantas/alocasia/Aloasia-foto-completa.jpg">
+                    <h4>Alocasia</h4>
+                    <p>nativas de las áreas tropicales y sub tropicales de Asia y Australia...</p>
+                    <a href="./Proyecto/productos.html">Leer más</a>
                 </div>
             </div>
             <div class="containerAside">
-                <h2 class="titleCard">Donde estamos!</h2>
-                <div class="card">
-                    <img src="/imagenes/fotos-macetas/Copa malbec fibra de vidrio/maceta-fibra-de-vidrio.jpg">
-                    <h4>ASIDE</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, excepturi unde?</p>
-                    <a href="#">Leer más</a>
+                <h4 class="titleCard">Sede en capital federal</h4>
+                <div class="cardDireccion">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.261580716183!2d-58.437820099999996!3d-34.5975464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca748c59b977%3A0xcff65bf71beb3fba!2sMalabia%20586%2C%20C1414%20DLL%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1655848016978!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <h4 class="titleCard">Video de la semana</h4>
+                <div class="cardDireccion">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ywv68CV3PH0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <p>
+                        <span>
+                            Hacé click en el video de la semana y compartilo en tus redes sociales!
+                        </span>
+                    </p>
                 </div>
             </div>
         </div>
         <br>
+        <h2 class="titleHorizontal">Nuestro compromiso</h2>
         <div class="barraHorizontal">
-            <h2 class="titleHorizontal">Nuestro compromiso</h2>
-            <div class="NuestroCompromiso">
+            <div class="nuestroCompromiso">
                 <div>
                     <h4>
                         Orientación al cliente
@@ -201,38 +204,9 @@
             </div>
         </div>
     </main>
-    <!--INCIO ASIDE
-    <aside class="aside">
-        <div class="divAside">
-            <h2>Video de la semana</h2>
-            <iframe src="https://www.youtube.com/embed/ASMmtvWF3hY" width="500px" height="300px"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-            <p class="parrafoAside">
-                En nuestro segmento de decoración, preparamos un informe sobre la decoración con plantas de
-                interiores.
-                Cómo darle un toque único a nuestras ambientes en esta temporada. Animate a seguir estos tips y
-                consejos
-                de decoración, y disfrutá de tu casa!
-            </p>
-            <h2>Lo más visto</h2>
-            <p>
-                En nuestro segmento de decoración, preparamos un informe sobre la decoración con plantas de
-                interiores.
-            </p>
-            <div class="cajasAside">
-                <img class="fotoPrincipalAside" src="./imagenes/fotos-plantas/alocasia/Aloasia-foto-completa.jpg" alt="Alocasia"
-                width="350px">
-                <a href="./Proyecto/Plantas-de-interior.html" class="btn btn-success m-3">+Mas info</a>
-            
-            </div>
-
-        </div>
-    </aside>
-    <!--INCIO FOOTER
+    <!--INCIO FOOTER-->
     <footer class="footer">
-        <div class="card text-center">
+        <div class="cardFooter text-center">
             <div class="card-body">
                 <h5 class="card-title">Takumi Vivero</h5>
                 <p class="card-text">Takumi Vivero es una ventana en constante actualización al mundo del diseño, la
@@ -250,7 +224,6 @@
             </div>
         </div>
     </footer>
-    <!--FIN FOOTER-->
     <!-- JavaScript Bundle with Popper Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
