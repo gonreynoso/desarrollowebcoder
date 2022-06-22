@@ -1,19 +1,12 @@
-header {
-	color: green;
-	text-decoration: none;
-	width: 100%;
-	height: 50%;
-	padding: 0px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: center;
-	align-content: space-around;
-	grid-area: header;
+.header{
+	position: sticky;
+	top: 0px;
+	z-index: 1;
+	
 }
 
-.divBarraDescuentos{
+
+.headerPadre{
 	background-color: rgb(23, 184, 47);
 	width: 100%;
 	.barraDescuentos{
