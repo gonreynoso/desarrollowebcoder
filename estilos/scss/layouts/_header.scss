@@ -1,14 +1,10 @@
+
 .header{
+	grid-area: header;
 	position: sticky;
 	top: 0px;
 	z-index: 1;
-	
-}
-
-
-.headerPadre{
 	background-color: rgb(23, 184, 47);
-	width: 100%;
 	.barraDescuentos{
 		background-color: rgb(23, 184, 47);
 		color: white;

@@ -1,18 +1,25 @@
 /* base */
 @import "./base/reset";
 
-/* abstracts*/
+/* abstracts */
 @import "./abstracts/mixins";
 @import "./abstracts/variables";
 
 /* components */
-@import "./components/h2";
+@import "./components/mediaqueries";
 
 
 /* layouts*/
-@import "./layouts/body";
 @import "./layouts/header";
 @import "./layouts/nav";
+@import "./layouts/footer";
+@import "./layouts/main";
+@import "./layouts/article";
+@import "./layouts/aside";
+@import "./layouts/main";
+@import "./layouts/barraHorizontal";
+
+
 
 /* pages */
 @import "../scss/pages/index";
@@ -21,7 +28,10 @@
 @import "../scss/pages/tips";
 @import "../scss/pages/productos";
 
-/* node_modules */
-@import "../../node_modules/bootstrap/scss/bootstrap.scss" 
 
-
+/* vendors 
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/carousel";
+@import "../../node_modules/bootstrap/scss/nav.scss";
+@import "../../node_modules/bootstrap/scss/navbar.scss";
+@import "../../node_modules/bootstrap/dist/css/bootstrap-grid.css";*/
