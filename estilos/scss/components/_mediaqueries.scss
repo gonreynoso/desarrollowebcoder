@@ -1,26 +1,14 @@
-/*@media screen and (max-width: 410px){
-    .grid-container{
-    display: grid;
-    grid-template-columns:5fr;
-    grid-template-rows: repeat(3,auto);
-    grid-template-areas: 
-    "header"
-    "containerPadreCards"
-    "footer";
-}
+@media screen and (max-width: 480px){
+    .contenedorMacetas,.contenedorPlantasInterior,.contenedorSustratos{
+        background-color: rgb(211, 211, 118);
+    }
 }
 
 
 
-@media screen and (max-width: 992px){
-	.grid-container{
-		display: grid;
-		grid-template-columns:1fr 3fr 1fr ;
-		grid-template-rows: repeat(5,auto);;
-		grid-template-areas: 
-		"header header header"
-		"footer footer footer";
-	}
+@media screen and (max-width: 1024px){
+    .contenedorMacetas,.contenedorPlantasInterior,.contenedorSustratos{
+        background-color: rgb(176, 232, 154);
+    }
 }
-*/
 

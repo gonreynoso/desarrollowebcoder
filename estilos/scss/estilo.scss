@@ -2,7 +2,6 @@
 @import "./base/reset";
 
 /* abstracts */
-@import "./abstracts/mixins";
 @import "./abstracts/variables";
 
 /* components */
@@ -13,15 +12,11 @@
 @import "./layouts/header";
 @import "./layouts/nav";
 @import "./layouts/footer";
-@import "./layouts/main";
-@import "./layouts/article";
-@import "./layouts/main";
-
-
 
 /* pages */
 @import "../scss/pages/index";
 @import "../scss/pages/contacto";
 @import "../scss/pages/productos";
-/* vendors */
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* vendors 
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";*/
