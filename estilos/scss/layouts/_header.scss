@@ -5,12 +5,12 @@
 	flex-wrap: wrap;
 	top: 0px;
 	width: 100%;
+	position: sticky;
+	z-index: 1;
 }
 
 
 .containerNav{
-	z-index: 1;
-	position: sticky;
 	width: 100%;
 }
 

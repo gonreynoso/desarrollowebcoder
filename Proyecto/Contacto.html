@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Keywords -->
-    <meta name="keywords"
-        content="planta,maceta,hojas,verde,naturaleza,ambiente,decoración,interior,exterior,decorar,lugares,2022,temporada,año,linda,pino,de,limon,alocasia,tierra,fértil,fibrocemento,cemento,acrílico,blanco,como,sol,noche,dá,lluvia,2021,soleado,lluvioso,nublado,bello,piedras,humedad,viento">
-
-
     <!-- FavIcon -->
-    <title>Mándanos un mensaje!</title>
-    <link rel="shortcut icon" href="../favicon/favicon.ico" type="image/x-icon">
+    <title>Productos|Plantas de interior</title>
+    <link rel="shortcut icon" href="/favicon/favicon.ico" type="image/x-icon">
 
     <!-- Fuentes de google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,21 +22,26 @@
 
     <!-- CSS principal -->
     <link rel="stylesheet" href="../estilos/css/estilo.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/5b0c3be127.js" crossorigin="anonymous"></script>
 </head>
 
 <!--INCIO BODY-->
 
-<body class="bodyContacto">
+<body>
     <!--INCIO header-->
     <header class="header">
-        <div class="headerPadre">
+        <div class="containerBarraDescuentos">
             <p class="barraDescuentos">
                 15% DE DESCUENTO EN PLANTAS PAGANDO EN EFECTIVO. 3 Y 6 CUOTAS SIN INTERES CON TARJETA. ENVIO GRATIS EN
                 COMPRAS SUPERIORES A $7900, DENTRO DE CABA.
             </p>
+        </div>
+        <div class="containerNav">
             <nav class="navbar navbar-expand-lg bg-light container-fluid">
                 <a class="navbar-brand" href="../index.html">
-                    <img src="../logo/logo.png" alt="logo" width="170px">
+                    <img src="/logo/logo.png" logo" width="170px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -50,18 +51,27 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./quienes-somos.html">Quiénes somos</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Productos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./plantasDeInterior.html">Plantas de interior</a>
+                                </li>
+                                <li><a class="dropdown-item" href="./macetas.html">Macetas</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./extractos.html">Extractos</a></li>
+                            </ul>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./productos.html">Productos</a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./tips.html">Tips</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Carrito</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
@@ -74,38 +84,42 @@
     </header>
     <!--INICIO MAIN-->
     <main>
-        <div class="containerPadreContacto m-5 p-3">
-            <form action="">
-                <h2>CONTACTO</h2>
+        <div class="containerFormulario">
+            <div class="infoForm">
+                    <h2>Contactános</h2>
+                    <p>
+                        Desde Takumi Vivero...
+                    </p>
+                    <a href="#"><i class="fa-solid fa-phone"></i>011 76829467</a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i>takumivivero@gmail.com</a>
+                    <a href="#"><i class="fa-solid fa-earth-americas"></i>Buenos aires, Argentina</a>
+            </div>
+            <form action="" autocomplete="off">
                 <fieldset>
-                    <div class="">
+                    <div class="campo">
                         <label for="inputName" class="form-label">Nombre</label>
                         <input type="text" id="inputName" placeholder="Escriba su nombre">
                     </div>
-                    <div class="">
+                    <div class="campo">
                         <label for="inputLastName" class="form-label">Apellido</label>
                         <input type="email" id="inputLastName" placeholder="Escriba su apellido">
                     </div>
-                    <div class="">
+                    <div class="campo">
                         <label for="inputEmail" class="form-label">Email</label>
                         <input type="email" id="inputEmail" placeholder="Email" required>
                     </div>
-                    <div class="">
+                    <div class="campo">
                         <label for="inputAdress" class="form-label">Dirección</label>
                         <input type="text" name="form-control" id="inputAdress" placeholder="Dirección">
                     </div>
                     <div>
-                        <label for="inputSex"></label>
-                        <input type="radio" name="sexo" value="hombre" > Hombre
-                        <input type="radio" name="sexo" value="mujer" > Mujer
-                        <input type="radio" name="sexo" value="otro" > Otro
+                        <label class="campo" for="inputSex"></label>
+                        <input type="radio" name="sexo" value="hombre"> Hombre
+                        <input type="radio" name="sexo" value="mujer"> Mujer
+                        <input type="radio" name="sexo" value="otro"> Otro
                     </div>
                     <div>
-                        <label for="inputTerms">Acepta términos y condiciones</label>
-                        <input type="checkbox" name="acepta" value="1" />
-                    </div>
-                    <div>
-                        <label for="inputCountry">Seleccione su país</label>
+                        <label class="campo" for="inputCountry">Seleccione su país</label>
                         <select name="pais">
                             <option value="Elegir" id="AF">Elegir opción</option>
                             <option value="Afganistán" id="AF">Afganistán</option>
@@ -176,14 +190,16 @@
                             <option value="Estados Unidos" id="US">Estados Unidos</option>
                             <option value="Estonia" id="EE">Estonia</option>
                             <option value="c" id="ET">Etiopía</option>
-                            <option value="Ex-República Yugoslava de Macedonia" id="MK">Ex-República Yugoslava de Macedonia</option>
+                            <option value="Ex-República Yugoslava de Macedonia" id="MK">Ex-República Yugoslava de
+                                Macedonia</option>
                             <option value="Filipinas" id="PH">Filipinas</option>
                             <option value="Finlandia" id="FI">Finlandia</option>
                             <option value="Francia" id="FR">Francia</option>
                             <option value="Gabón" id="GA">Gabón</option>
                             <option value="Gambia" id="GM">Gambia</option>
                             <option value="Georgia" id="GE">Georgia</option>
-                            <option value="Georgia del Sur y las islas Sandwich del Sur" id="GS">Georgia del Sur y las islas Sandwich del Sur</option>
+                            <option value="Georgia del Sur y las islas Sandwich del Sur" id="GS">Georgia del Sur y las
+                                islas Sandwich del Sur</option>
                             <option value="Ghana" id="GH">Ghana</option>
                             <option value="Gibraltar" id="GI">Gibraltar</option>
                             <option value="Granada" id="GD">Granada</option>
@@ -219,7 +235,8 @@
                             <option value="Islas Malvinas Islas Falkland" id="FK">Islas Malvinas Islas Falkland</option>
                             <option value="Islas Marianas del norte" id="MP">Islas Marianas del norte</option>
                             <option value="Islas Marshall" id="MH">Islas Marshall</option>
-                            <option value="Islas menores de Estados Unidos" id="UM">Islas menores de Estados Unidos</option>
+                            <option value="Islas menores de Estados Unidos" id="UM">Islas menores de Estados Unidos
+                            </option>
                             <option value="Islas Palau" id="PW">Islas Palau</option>
                             <option value="Islas Salomón" d="SB">Islas Salomón</option>
                             <option value="Islas Tokelau" id="TK">Islas Tokelau</option>
@@ -291,7 +308,8 @@
                             <option value="República Centroafricana" id="CF">República Centroafricana</option>
                             <option value="República Checa" id="CZ">República Checa</option>
                             <option value="República de Sudáfrica" id="ZA">República de Sudáfrica</option>
-                            <option value="República Democrática del Congo Zaire" id="CD">República Democrática del Congo Zaire</option>
+                            <option value="República Democrática del Congo Zaire" id="CD">República Democrática del
+                                Congo Zaire</option>
                             <option value="República Dominicana" id="DO">República Dominicana</option>
                             <option value="Reunión" id="RE">Reunión</option>
                             <option value="Ruanda" id="RW">Ruanda</option>
@@ -302,7 +320,8 @@
                             <option value="San Kitts y Nevis" id="KN">San Kitts y Nevis</option>
                             <option value="San Marino" id="SM">San Marino</option>
                             <option value="San Pierre y Miquelon" id="PM">San Pierre y Miquelon</option>
-                            <option value="San Vicente e Islas Granadinas" id="VC">San Vicente e Islas Granadinas</option>
+                            <option value="San Vicente e Islas Granadinas" id="VC">San Vicente e Islas Granadinas
+                            </option>
                             <option value="Santa Helena" id="SH">Santa Helena</option>
                             <option value="Santa Lucía" id="LC">Santa Lucía</option>
                             <option value="Santo Tomé y Príncipe" id="ST">Santo Tomé y Príncipe</option>
@@ -324,7 +343,8 @@
                             <option value="Taiwán" id="TW">Taiwán</option>
                             <option value="Tanzania" id="TZ">Tanzania</option>
                             <option value="Tayikistán" id="TJ">Tayikistán</option>
-                            <option value="Territorios británicos del océano Indico" id="IO">Territorios británicos del océano Indico</option>
+                            <option value="Territorios británicos del océano Indico" id="IO">Territorios británicos del
+                                océano Indico</option>
                             <option value="Territorios franceses del sur" id="TF">Territorios franceses del sur</option>
                             <option value="Timor Oriental" id="TP">Timor Oriental</option>
                             <option value="Togo" id="TG">Togo</option>
@@ -345,14 +365,21 @@
                             <option value="Yemen" id="YE">Yemen</option>
                             <option value="Zambia" id="ZM">Zambia</option>
                             <option value="Zimbabue" id="ZW">Zimbabue</option>
-                            </select>
+                        </select>
                     </div>
                     <div>
-                        <label for="birth">Fecha de nacimiento</label>
+                        <label class="campo" for="birth">Fecha de nacimiento</label>
                         <input name "birth" type="date">
                     </div>
+                    <div class="textArea">
+                        <textarea name="mensaje" placeholder="Escriba su mensaje"></textarea>
+                    </div>
                     <div>
-                        <input type="submit" value="ENVIAR">
+                        <label for="inputTerms">Acepta términos y condiciones</label>
+                        <input type="checkbox" name="acepta" value="1" />
+                    </div>
+                    <div>
+                        <input class="boton" type="submit" value="ENVIAR">
                     </div>
                 </fieldset>
             </form>
@@ -368,7 +395,9 @@
                 </div>
                 <div class="terminos">
                     <p>
-                        Takumi Vivero es una ventana en constante actualización al mundo del diseño, la decoración, la arquitectura y la naturaleza. Una apuesta por el rigor, el detalle y la creatividad con especial interés en ofrecer un servicio de calidad a nuestros consumidores. 
+                        Takumi Vivero es una ventana en constante actualización al mundo del diseño, la decoración, la
+                        arquitectura y la naturaleza. Una apuesta por el rigor, el detalle y la creatividad con especial
+                        interés en ofrecer un servicio de calidad a nuestros consumidores.
                     </p>
                 </div>
 
@@ -377,13 +406,14 @@
                 <h2>Guía rápida</h2>
                 <a href="../index.html">Inicio</a>
                 <a href="../Proyecto/contacto.html">Contacto</a>
-                <a href="../Proyecto/productos.html">Productos</a>
-                <a href="../Proyecto/quienes-somos.html">Quiénes somos</a>
-                <a href="../Proyecto/tips.html">Tips y cuidados</a>
+                <a href="../Proyecto/macetas.html">Macetas</a>
+                <a href="../Proyecto/plantasDeInterior.html">Plantas de interior</a>
+                <a href="../Proyecto/extractos.html">Extractos</a>
             </div>
             <div class="boxFooter">
                 <h2>Redes sociales</h2>
-                <a href="https://www.instagram.com/" target="_blank"> <i class="fa-brands fa-instagram"></i>Instagram</a>
+                <a href="https://www.instagram.com/" target="_blank"> <i
+                        class="fa-brands fa-instagram"></i>Instagram</a>
                 <a href="https://www.facebook.com/l" target="_blank"> <i class="fa-brands fa-facebook"></i>Facebook</a>
                 <a href="https://www.youtube.com/" target="_blank"> <i class="fa-brands fa-youtube"></i>Youtube</a>
             </div>
@@ -391,7 +421,7 @@
         <div class="boxCopyright">
             <hr>
             <p>
-                Todos los derechos reservados © 2022 
+                Todos los derechos reservados © 2022
             </p>
             <b>Gonzalo Reynoso CoderHouse</b>
         </div>
