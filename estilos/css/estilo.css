@@ -12,40 +12,108 @@
 /* Las variables se usan con el signo pesos y se suelen usar con colores especificos o algo que le quieras dar unas propiedas especificas*/
 /*Luego se las llama con el signo pesos tambien*/
 /* components */
-@media screen and (max-width: 410px) {
-  .grid-container {
+/*@media screen and (max-width: 410px){
+    .grid-container{
     display: grid;
-    grid-template-columns: 5fr;
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "header" "containerPadreCards" "footer"; } }
+    grid-template-columns:5fr;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas: 
+    "header"
+    "containerPadreCards"
+    "footer";
+}
+}
 
-@media screen and (max-width: 750px) {
-  .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: repeat(5, auto);
-    grid-template-areas: "header header header" "carusel carusel carusel" "containerPadreCards containerPadreCards aside" "barraHorizontal barraHorizontal barraHorizontal" "footer footer footer"; } }
 
+
+@media screen and (max-width: 992px){
+	.grid-container{
+		display: grid;
+		grid-template-columns:1fr 3fr 1fr ;
+		grid-template-rows: repeat(5,auto);;
+		grid-template-areas: 
+		"header header header"
+		"footer footer footer";
+	}
+}
+*/
 /* layouts*/
 .header {
   grid-area: header;
-  position: sticky;
+  display: flex;
+  flex-wrap: wrap;
   top: 0px;
+  width: 100%; }
+
+.containerNav {
   z-index: 1;
-  background-color: #17b82f; }
-  .header .barraDescuentos {
-    background-color: #17b82f;
-    color: white;
-    padding: 0px;
-    margin: 0px;
-    text-align: center; }
+  position: sticky;
+  width: 100%; }
+
+.containerBarraDescuentos {
+  background-color: #17b82f;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  text-align: center;
+  z-index: 0;
+  text-align: center; }
 
 nav a img:hover {
   transform: scale(1.2, 1.2);
   transition: all 0.5s; }
 
 .footer {
-  grid-area: footer; }
+  grid-area: footer;
+  width: 100%;
+  padding: 10px 0px;
+  background-color: #02220a; }
+
+.containerFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: -37px auto -29px;
+  color: white; }
+
+.boxFooter {
+  display: flex;
+  flex-direction: column;
+  padding: 40px; }
+  .boxFooter .logo img {
+    width: 150px; }
+  .boxFooter .terminos {
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 14px; }
+  .boxFooter h2 {
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700; }
+  .boxFooter a {
+    margin-top: 10px;
+    font-weight: 600; }
+  .boxFooter a:hover {
+    opacity: 0.8; }
+  .boxFooter a .fa-brands {
+    font-size: 20px;
+    padding: 8px; }
+
+.boxCopyright {
+  color: white;
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 4px; }
+  .boxCopyright p {
+    color: #7a7a7a; }
+  .boxCopyright hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a; }
 
 .main {
   grid-area: main; }
@@ -53,29 +121,29 @@ nav a img:hover {
 article {
   grid-area: article; }
 
-aside {
-  grid-area: aside; }
-
 .main {
   grid-area: main; }
-
-.barraHorizontal {
-  display: grid; }
 
 /* pages */
 .containerPadreCards {
   display: flex; }
 
 .titleCard {
-  text-align: center;
+  margin: auto;
   font-size: 40px;
   color: #6a6a6a;
   font-weight: 100px;
   font-family: 'Roboto', sans-serif;
-  margin-left: 100px; }
+  display: flex;
+  justify-content: center; }
 
-.cardDireccion {
-  margin-left: 100px; }
+.containerAside {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto; }
+
+.carousel-inner {
+  height: 500px; }
 
 /* Cards */
 .card {
@@ -120,6 +188,8 @@ aside {
   letter-spacing: 0.02rem;
   line-height: 1.2;
   margin: auto; }
+  .barraHorizontal .titleHorizontal {
+    text-align: center; }
   .barraHorizontal .nuestroCompromiso {
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -128,16 +198,6 @@ aside {
     text-align: center;
     transition: all 0.25s;
     display: flex; }
-
-.titleHorizontal {
-  text-align: center; }
-
-.containerAside {
-  margin: 70px;
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: space-between; }
 
 .bodyContacto {
   background-color: #341ddf; }

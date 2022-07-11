@@ -1,15 +1,29 @@
 
 .header{
 	grid-area: header;
-	position: sticky;
+	display: flex;
+	flex-wrap: wrap;
 	top: 0px;
+	width: 100%;
+}
+
+
+.containerNav{
 	z-index: 1;
+	position: sticky;
+	width: 100%;
+}
+
+
+
+.containerBarraDescuentos{
 	background-color: rgb(23, 184, 47);
-	.barraDescuentos{
-		background-color: rgb(23, 184, 47);
-		color: white;
-		padding: 0px;
-		margin: 0px;
-		text-align: center;
-	}
+	color: white;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	text-align: center;
+	z-index: 0;
+	text-align: center;
+	
 }

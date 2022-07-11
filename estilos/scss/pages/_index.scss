@@ -1,26 +1,31 @@
-
-
 .containerPadreCards{
     display: flex;
 }
 
 
 .titleCard{
-    text-align: center;
+    margin: auto;
     font-size: 40px;
     color: #6a6a6a;
     font-weight: 100px;
     font-family: 'Roboto', sans-serif;
-    margin-left: 100px;
+    display: flex;
+    justify-content: center;
         
 }
 
-.cardDireccion{
-    margin-left: 100px;
 
+.containerAside{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
 }
 
 
+
+.carousel-inner{
+    height: 500px;
+}
 
 
 
@@ -77,6 +82,9 @@
     letter-spacing: 0.02rem;
     line-height: 1.2;
     margin: auto;
+    .titleHorizontal{
+        text-align: center;
+    }
     .nuestroCompromiso{
         border-radius: 8px;
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -86,17 +94,4 @@
         transition: all 0.25s;
         display: flex;
     }
-}
-
-.titleHorizontal{
-    text-align: center;
-}
-
-
-.containerAside{
-    margin: 70px;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
