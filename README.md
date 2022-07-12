@@ -2,7 +2,7 @@
 Vivero Takumi es un e-commerce en el cual se me ocurrió trabajar ya que es el negocio de un amigo, y capaz
 en un futuro podría dársela como primer página web o esa es la idea por ahora.
 
-*El proyecto consta de 7 html donde encontrarás el index,Historia,Plantas de interior,Plantas de exterior, Macetas, Tips y Contacto.
+*El proyecto consta de 5 html donde encontrarás el index, plantas de interior, macetas, sustratos, contacto y el carrito pero como no aprendimos Javascript solo lo puse en la barra de navegación.
 
 Dependencias:
   "devDependencies": {
@@ -14,25 +14,43 @@ Estoy probando el uso correcto del patrón SASS 7-1 para brindarle a usted coleg
 Wireframe: Está explicada la version desktop y mobile.
 
 Html index:
-Navbar creado por bootstrap. 
+Header y Navbar creado por bootstrap. 
 Carrusel de imágenes.
-Texto de bienvenida.
-Video de la semana.
-Lo mas visto.
+Productos destacados.
+Ubicacion con link de google.
+Video de la semana con reproductor en pagina de youtube.
+Barra de objetivos.
 Footer.
 
-Html Historia:
-Navbar creado por bootstrap. 
-Nuestra historia.
+Html Plantas de interior:
+Header y Navbar.
+Tarjetas hechas desde 0 con  los productos.
+Footer.
 
-Html Productos.
-Aquí dentro estarán todos los productos dividios en 3 html que son:
-Plantas de interior.
-Plantas de exterior.
-Macetas.
 
-Html Tips:
-Aquí estarán algunos tips para el cuidado de las plantas.
+Html Macetas:
+Header y Navbar.
+Tarjetas hechas desde 0 con  los productos.
+Footer.
 
+Html Sustratos:
+Header y Navbar.
+Tarjetas hechas desde 0 con  los productos.
+Footer.
+
+Html Contacto:
+Header y Navbar.
+Formulario de contacto
+Footer.
+
+Los archivos .scss fueron dividios para un mejor entendimiento del código según el sistema que ofrece SASS que es el patrón SASS 7-1.
+
+Las imágenes estan optimizadas para que pesen lo menos posible manteniendo su calidad.
+
+
+Bonus: Profesora Mercedes
+
+Mi nombre es Gonzalo Reynoso y quería agradecerle por ser nuestra profesora ya que entendí muy bien sus clases y me dio muchos conocimientos que pude aprender y que seguiré aprendiendo ya que Html y CSS son un MUNDO! SASS me encantó!
+Le agradezco mucho su interés por enseñar y le mando un saludo grande a usted, sus perritos y Celia!
 
 
