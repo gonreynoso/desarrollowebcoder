@@ -47,6 +47,8 @@ Los archivos .scss fueron dividios para un mejor entendimiento del código segú
 
 Las imágenes estan optimizadas para que pesen lo menos posible manteniendo su calidad.
 
+El proyecto está subido en la rama master de GitHub y en Pages de GitHub.
+
 
 Bonus: Profesora Mercedes
 
